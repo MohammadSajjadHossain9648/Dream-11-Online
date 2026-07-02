@@ -1,7 +1,7 @@
 import { CircleUserRound, Flag } from 'lucide-react';
 import React from 'react';
 
-const AvailablePlayer = ({ player }) => {
+const AvailablePlayer = ({ player, handleToChoosePlayer }) => {
     return (
         <div className="p-5 border border-shade_black_hr_color rounded-2xl">
             <figure className="sm:h-72 md:h-52">
