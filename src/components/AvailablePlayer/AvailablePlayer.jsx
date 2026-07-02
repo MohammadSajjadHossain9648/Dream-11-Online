@@ -1,7 +1,14 @@
 import { CircleUserRound, Flag } from 'lucide-react';
-import React from 'react';
+import React, { useState } from 'react';
 
 const AvailablePlayer = ({ player, handleToChoosePlayer }) => {
+    const [chooseBtn, setChooseBtn] = useState(false);
+
+    const handleButton = () => {
+        setChooseBtn(!chooseBtn);
+        handleToChoosePlayer(player);
+    }
+
     return (
         <div className="p-5 border border-shade_black_hr_color rounded-2xl">
             <figure className="sm:h-72 md:h-52">
@@ -28,7 +35,7 @@ const AvailablePlayer = ({ player, handleToChoosePlayer }) => {
                 </div>
                 <div className="flex justify-between items-center">
                     <p className="text-sm font-semibold">Price: ${player.bidding_price}</p>
-                    <button onClick={() => handleToChoosePlayer(player)} className="btn text-xs font-normal bg-white_color rounded-md">Choose Player</button>
+                    <button onClick={handleButton} disabled={chooseBtn} className={`btn text-xs font-normal bg-white_color rounded-md ${chooseBtn ? 'bg-green-800 text-black' : ''}`}>{chooseBtn ? 'Selected' : 'Choose Player'}</button>
                 </div>
             </div>
         </div>

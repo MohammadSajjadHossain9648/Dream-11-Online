@@ -3,27 +3,27 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers';
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers';
+import Footer from './components/Footer/Footer';
 
 const fetchPlayers = async () => {
   const res = await fetch('/players.json');
   return res.json();
 }
+const playersPromise = fetchPlayers();
+
 
 const App = () => {
-
-  const playersPromise = fetchPlayers();
-
   const [toggle, setToggle] = useState(true);
-  const [cost, setCost] = useState(60000000);
+  const [cost, setCost] = useState(15000000);
 
 
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   const handleToChoosePlayer = (player) => {
-    const {id, name, bidding_price} = player;
+    const {id, bidding_price} = player;
 
     const isSelected = selectedPlayers.find(selectedPlayer => selectedPlayer.id === id);
 
-    if(isSelected){
+    if(isSelected || selectedPlayers.length === 12){
       return ;
     }
 
@@ -59,8 +59,8 @@ const App = () => {
         }
 
         <div className="">
-          <button onClick={() => setToggle(!toggle)} className={`btn rounded-l-3xl px-4 font-bold ${toggle ? 'bg-green-400' : ''}`}>Available</button>
-          <button onClick={() => setToggle(!toggle)} className={`btn rounded-r-3xl px-4 font-bold ${toggle ? '' : 'bg-green-400'}`}>Selected<span>({selectedPlayers.length})</span></button>
+          <button onClick={() => setToggle(!toggle)} className={`btn rounded-l-3xl rounded-r-0 px-4 font-bold ${toggle ? 'bg-green-400' : ''}`}>Available</button>
+          <button onClick={() => setToggle(!toggle)} className={`btn rounded-l-0 rounded-r-3xl px-4 font-bold ${toggle ? '' : 'bg-green-400'}`}>Selected<span>({selectedPlayers.length})</span></button>
         </div>
       </div>
 
@@ -73,6 +73,8 @@ const App = () => {
             <SelectedPlayers handleAddMorePlayers={handleAddMorePlayers} handleToRemovePlayer={handleToRemovePlayer} selectedPlayers={selectedPlayers}></SelectedPlayers>
         }
       </div>
+
+      <Footer></Footer>
     </div>
   );
 };
