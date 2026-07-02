@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "img": "https://i.ibb.co.com/std9R5B/Shakib-Al-Hasan.jpg",
+    "role": "All-rounder",
+    "batting_type": "Left-handed bat",
+    "bowling_type": "Left-arm Orthodox",
+    "bidding_price": 1200000
+  },
+  {
+    "id": 2,
+    "name": "Joe Root",
+    "country": "England",
+    "img": "https://i.ibb.co.com/DMFyTPv/Joe-Root.jpg",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "Right-arm off-break",
+    "bidding_price": 900000
+  },
+  {
+    "id": 3,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "img": "https://i.ibb.co.com/NNnWXxv/Mustafizur-Rahman.webp",
+    "role": "Bowler",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "Left-arm fast-medium",
+    "bidding_price": 700000
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "country": "England",
+    "img": "https://i.ibb.co.com/Fm7cD4M/Ben-Stokes.webp",
+    "role": "All-rounder",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "Right-arm fast-medium",
+    "bidding_price": 1300000
+  },
+  {
+    "id": 5,
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "img": "https://i.ibb.co.com/whYRcWs/Mushfiqur-Rahim.webp",
+    "role": "Wicketkeeper-batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "N/A",
+    "bidding_price": 500000
+  },
+  {
+    "id": 6,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "img": "https://i.ibb.co.com/6mgGwv5/Trent-Boult.jpg",
+    "role": "Bowler",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "Left-arm fast-medium",
+    "bidding_price": 900000
+  },
+  {
+    "id": 7,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "img": "https://i.ibb.co.com/8jB03fc/Shaheen-Afridi.jpg",
+    "role": "Bowler",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "Left-arm fast",
+    "bidding_price": 800000
+  },
+  {
+    "id": 8,
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "img": "https://i.ibb.co.com/1sMd8LR/Pat-Cummins.webp",
+    "role": "Bowler",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "Right-arm fast",
+    "bidding_price": 1500000
+  },
+  {
+    "id": 9,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "img": "https://i.ibb.co.com/wCVptSv/Andre-Russell.webp",
+    "role": "All-rounder",
+    "batting_type": "Right-handed bat",
+    "bowling_type": "Right-arm Fast",
+    "bidding_price": 1400000
+  },
+  {
+    "id": 10,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "img": "https://i.ibb.co.com/hYdqvjv/Steve-Smith.webp",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "Right-arm legbreak",
+    "bidding_price": 1400000
+  },
+  {
+    "id": 11,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "img": "https://i.ibb.co.com/mGV7pGV/Kane-Williamson.webp",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "Right-arm off-break",
+    "bidding_price": 1000000
+  },
+  {
+    "id": 12,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "img": "https://i.ibb.co.com/bzwcFxg/Quinton-de-Kock.webp",
+    "role": "Wicketkeeper-batsman",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "N/A",
+    "bidding_price": 850000
+  },
+  {
+    "id": 13,
+    "name": "David Warner",
+    "country": "Australia",
+    "img": "https://i.ibb.co.com/gJDYmmV/David-Warner.jpg",
+    "role": "Batsman",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "N/A",
+    "bidding_price": 1300000
+  },
+  {
+    "id": 14,
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "img": "https://i.ibb.co.com/N7W8fh5/Kagiso-Rabada.jpg",
+    "role": "Bowler",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "Right-arm fast",
+    "bidding_price": 1100000
+  },
+  {
+      "id": 15,
+      "name": "Virat Kohli",
+      "country": "India",
+      "img": "https://i.ibb.co.com/Wv4pG4G/Virat-Kohli.jpg",
+      "role": "Batsman",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm medium",
+      "bidding_price": 900000
+    }
+]
